@@ -152,9 +152,6 @@ var current_fs, next_fs, previous_fs, userKey;
         "<button type='button' class='btn btn-default btn-clicked' id='fireBase-no'>No</button>"+
          "<button type='button' class='btn btn-default btn-clicked' id='fireBase-yes'>Yes</button>" +
         "</div>"); // #pinDrop-window 
-        if(marker.setVisible){
-          marker.setVisible(false);
-        }
         questionWindow.open(map, marker);
         if(infoWindow.open()){
         infoWindow.close();
