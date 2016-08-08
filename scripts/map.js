@@ -133,8 +133,7 @@ var current_fs, next_fs, previous_fs, userKey;
         var marker = new google.maps.Marker({
           position: place.geometry.location,
           map: map,
-          icon: pinIcon + "redStar.png",
-          draggable: true
+          icon: pinIcon + "redStar.png"
         });
         } //closing the if statement
 
@@ -195,8 +194,7 @@ var current_fs, next_fs, previous_fs, userKey;
     var marker = new google.maps.Marker({
     position: {lat: e.latLng.lat(), lng: e.latLng.lng()},
     map: map,
-    icon: pinIcon + "redStar.png",
-    draggable: true
+    icon: pinIcon + "redStar.png"
     }); // var marker
      //info box when you click map
     questionWindow.setContent( 
