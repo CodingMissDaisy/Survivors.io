@@ -272,7 +272,7 @@ body{
 	color: #264653;
 	width: 250px;
 	height: 45px;
-	box-shadow: none;
+	box-shadow: 2px 2px 2px black;
 	border: none;
 	margin-top: 5px;
 	margin-bottom: 5px;
