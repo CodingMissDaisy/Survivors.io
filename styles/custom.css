@@ -242,8 +242,8 @@ body{
 }
 
 #seeMap {
-	width: 230px;
-	height: 60px;
+	width: 70%;
+	height: 12%;
 	color: #264653;
 	border-radius: 30px;
 	margin-top: 10px;
@@ -253,8 +253,8 @@ body{
 	background-color: #fff8e0;
 	color: #264653;
 	margin-top: 15px;
-	width: 280px;
-	height: 70px;
+	width: 80%;
+	height: 12%;
 	border-radius: 20px;
 	box-shadow: 2px 2px 2px black;
 }
@@ -272,13 +272,13 @@ body{
 	color: #264653;
 	width: 250px;
 	height: 45px;
-	box-shadow: none;
+	box-shadow: 2px 2px 2px black;
 	border: none;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
-.answerBtn:focus {
+.answerBtn:focus, .dateBtn1:focus, .noDateBtn:focus{
 	background-color: #67ccde;
 }
 
@@ -286,8 +286,21 @@ body{
 		width: 45%;
 }
 
+.dateContainer {
+	width: 100%;
+	height: 12%;
+	flex-direction: row;
+}
+
+.dates2 {
+	color: black;
+	width: 45%;
+}
+
 #annieCannons {
-	height: 70px;
+	color: #fff8e0;
+	font-size: 100%;
+	height: 20%;
 }
 
 /********** FLOW CONTROLS ***********/
@@ -460,6 +473,7 @@ body{
 		width: 100vw;
 		height: 100vh;
 		top:0;
+		padding: 5px 15px;
 	}
 
 	#homepage-overlay {
@@ -467,13 +481,7 @@ body{
 		height:100vh;
 		top:0;
 		background-color: rgba(38, 70, 83, 0.98);
-	}
-
-	.grayBtn {
-		margin-top: 30px;
-		width: 80%;
-		color: #264653;
-		height: 10%;
+		padding: 5px 15px;
 	}
 
 	.logoText {
@@ -484,5 +492,19 @@ body{
 		z-index: 2;
 	}
 
+	h3{
+		margin-top: 5px;
+	}
+
+	h4{
+		margin-top: 0px;
+	}
+	
+	.grayBtn {
+		margin-top: 30px;
+		width: 80%;
+		color: #264653;
+		height: 10%;
+	}
 }
 

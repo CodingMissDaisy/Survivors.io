@@ -35,12 +35,12 @@ function geocodeThis(){
 
 //Function to fade in elements
 function fadeThisIn(element){
-    element.fadeIn("slow");
+    element.fadeIn(1500);
 };
 
 //Function to fade out elements
 function fadeThisOut(element){
-    element.fadeOut("slow");
+    element.fadeOut(1500);
 };
 
 
@@ -133,8 +133,7 @@ var current_fs, next_fs, previous_fs, userKey;
         var marker = new google.maps.Marker({
           position: place.geometry.location,
           map: map,
-          icon: pinIcon + "redStar.png",
-          draggable: true
+          icon: pinIcon + "redStar.png"
         });
         } //closing the if statement
 
@@ -153,9 +152,6 @@ var current_fs, next_fs, previous_fs, userKey;
         "<button type='button' class='btn btn-default btn-clicked' id='fireBase-no'>No</button>"+
          "<button type='button' class='btn btn-default btn-clicked' id='fireBase-yes'>Yes</button>" +
         "</div>"); // #pinDrop-window 
-        if(marker.setVisible){
-          marker.setVisible(false);
-        }
         questionWindow.open(map, marker);
         if(infoWindow.open()){
         infoWindow.close();
@@ -198,8 +194,7 @@ var current_fs, next_fs, previous_fs, userKey;
     var marker = new google.maps.Marker({
     position: {lat: e.latLng.lat(), lng: e.latLng.lng()},
     map: map,
-    icon: pinIcon + "redStar.png",
-    draggable: true
+    icon: pinIcon + "redStar.png"
     }); // var marker
      //info box when you click map
     questionWindow.setContent( 
