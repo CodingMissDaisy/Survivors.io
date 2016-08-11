@@ -251,7 +251,7 @@ $("#date2-backBtn").click(function(){
     $("#confirmExit").hide();
   });
 
-  $("#confirmExit > #exitYesDelete").on("click", function() {
+  $(".exitYesDelete").on("click", function() {
     document.getElementById("resetForm").reset();
     $(".form-overlay").fadeOut();
     $("#seePrompt").fadeIn();

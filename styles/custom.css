@@ -242,8 +242,8 @@ body{
 }
 
 #seeMap {
-	width: 230px;
-	height: 60px;
+	width: 70%;
+	height: 12%;
 	color: #264653;
 	border-radius: 30px;
 	margin-top: 10px;
@@ -253,8 +253,8 @@ body{
 	background-color: #fff8e0;
 	color: #264653;
 	margin-top: 15px;
-	width: 280px;
-	height: 70px;
+	width: 80%;
+	height: 12%;
 	border-radius: 20px;
 	box-shadow: 2px 2px 2px black;
 }
@@ -473,17 +473,6 @@ body{
 		padding: 5px 15px;
 	}
 
-	h3 {
-		margin-top: 5px;
-	}
-
-	.grayBtn {
-		margin-top: 30px;
-		width: 80%;
-		color: #264653;
-		height: 10%;
-	}
-
 	.logoText {
 		position:absolute;
 		margin: 0;
@@ -492,5 +481,19 @@ body{
 		z-index: 2;
 	}
 
+	h3{
+		margin-top: 5px;
+	}
+
+	h4{
+		margin-top: 0px;
+	}
+	
+	.grayBtn {
+		margin-top: 30px;
+		width: 80%;
+		color: #264653;
+		height: 10%;
+	}
 }
 
