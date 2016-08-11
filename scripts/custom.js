@@ -170,7 +170,7 @@ $("#date2-backBtn").click(function(){
    previousPage.fadeIn(1500);
  });
 
-/* SCHOOL CAMPUS CONTROL BUTTONS */
+/* MULTIPLE ASSAULTS CONTROL BUTTONS */
   $("#multipleA-backBtn").click(function(){
    currentPage = $(this).parent().parent();
    previousPage = $("#dateSpecificity");
