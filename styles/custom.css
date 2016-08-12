@@ -315,7 +315,7 @@ body{
 	bottom: 4%;
 }
 
-.exitBtn, .exitLocationBtn, #exitMapBtn{
+.exitBtn, .exitLocationBtn, #exitMapBtn, .exitPrivacy{
 	/*position: absolute;*/
 	width: 40px;
 	height: 40px;
@@ -434,6 +434,20 @@ body{
 	text-decoration: none;
 }
 
+#scrollabletextbox {
+	height:70%;
+    width:70%;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 82%;
+    overflow:scroll;
+	color:black;
+	margin:0;
+}
+
+#scrollabletextbox body {
+	padding:0;
+}
+
 /********** FORM ***********/
 .form-overlay {
     width: 50vw;
@@ -506,5 +520,10 @@ body{
 		color: #264653;
 		height: 10%;
 	}
+
+	#scrollabletextbox {
+		height:70%;
+		width:80%;   
+ 	}
 }
 

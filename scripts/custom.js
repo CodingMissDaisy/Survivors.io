@@ -68,7 +68,7 @@ $(document).ready(function(){
   });
 
   $(".navyBtn").on("click", function(){
-      $("#locationForm").fadeOut(1500);
+      $("#locationForm").fadeOut(600);
       $(".home-elements").show();
       $("#addPrompt").show();
       $("#exitMap").show();
@@ -82,8 +82,8 @@ $(document).ready(function(){
   $(".answerBtn").on("click", function() {
      current_fs = $(this).parent();
 	   next_fs = $(this).parent().next();
-     current_fs.fadeOut(1500);
-	   next_fs.fadeIn(1500); 
+     current_fs.fadeOut(600);
+	   next_fs.fadeIn(600); 
      userKey = $(this).parent().data("value");
      userObject[userKey] = $(this).val();
     //  console.log(userObject);
@@ -99,8 +99,8 @@ $(document).ready(function(){
   $(".skipBtn").on("click", function() {
     current_fs = $(this).parent().parent();
 	  next_fs = $(this).parent().parent().next();
-    current_fs.fadeOut(1500);
-	  next_fs.fadeIn(1500); 
+    current_fs.fadeOut(600);
+	  next_fs.fadeIn(600); 
   });
 
 //Subfields
@@ -108,15 +108,15 @@ $(document).ready(function(){
   $("#dateSpec-skipBtn").click(function(){
     currentPage = $(this).parent().parent();
     nextPage = $("#multipleAssaults");
-    currentPage.fadeOut(1500);
-    nextPage.fadeIn(1500);
+    currentPage.fadeOut(600);
+    nextPage.fadeIn(600);
   });
 
   $(".dateBtn1").click(function(){
    currentPage = $(this).parent();
    nextPage = $("#dateRange1");
-   currentPage.fadeOut(1500);
-   nextPage.fadeIn(1500);
+   currentPage.fadeOut(600);
+   nextPage.fadeIn(600);
    userKey = $(this).parent().data("value");
    userObject[userKey] = $(this).val();
  });
@@ -124,8 +124,8 @@ $(document).ready(function(){
  $(".dateBtn2").click(function(){
    currentPage = $(this).parent();
    nextPage = $("#dateRange2");
-   currentPage.fadeOut(1500);
-   nextPage.fadeIn(1500);
+   currentPage.fadeOut(600);
+   nextPage.fadeIn(600);
    userKey = $(this).parent().data("value");
    userObject[userKey] = $(this).val();
  });
@@ -133,15 +133,15 @@ $(document).ready(function(){
   $(".noDateBtn").click(function(){
    currentPage = $(this).parent();
    nextPage = $("#multipleAssaults");
-   currentPage.fadeOut(1500);
-   nextPage.fadeIn(1500);
+   currentPage.fadeOut(600);
+   nextPage.fadeIn(600);
  });
 
   $("#saveDate1").click(function(){
    currentPage = $(this).parent();
    nextPage = $("#multipleAssaults");
-   currentPage.fadeOut(1500);
-   nextPage.fadeIn(1500);
+   currentPage.fadeOut(600);
+   nextPage.fadeIn(600);
    userKey = $(this).parent().data("value");
    userObject[userKey] = $("#dateStart1").val() + " - " + $("#dateEnd1").val();
   });
@@ -149,16 +149,16 @@ $(document).ready(function(){
  $("#date1-skipBtn").click(function(){
     currentPage = $(this).parent().parent();
     nextPage = $("#multipleAssaults");
-    currentPage.fadeOut(1500);
-    nextPage.fadeIn(1500);
+    currentPage.fadeOut(600);
+    nextPage.fadeIn(600);
   });
 
 
   $("#saveDate2").click(function(){
    currentPage = $(this).parent();
    nextPage = $("#multipleAssaults");
-   currentPage.fadeOut(1500);
-   nextPage.fadeIn(1500);
+   currentPage.fadeOut(600);
+   nextPage.fadeIn(600);
    userKey = $(this).parent().data("value");
    userObject[userKey] = $("#dateStart2").val() + " - " + $("#dateEnd2").val();
  });
@@ -166,24 +166,24 @@ $(document).ready(function(){
 $("#date2-backBtn").click(function(){
    currentPage = $(this).parent().parent();
    previousPage = $("#dateSpecificity");
-   currentPage.fadeOut(1500);
-   previousPage.fadeIn(1500);
+   currentPage.fadeOut(600);
+   previousPage.fadeIn(600);
  });
 
 /* MULTIPLE ASSAULTS CONTROL BUTTONS */
   $("#multipleA-backBtn").click(function(){
    currentPage = $(this).parent().parent();
    previousPage = $("#dateSpecificity");
-   currentPage.fadeOut(1500);
-   previousPage.fadeIn(1500);
+   currentPage.fadeOut(600);
+   previousPage.fadeIn(600);
  });
 
  /* SCHOOL CAMPUS CONTROL BUTTONS */
   $(".notCampusBtn").click(function(){
     currentPage = $(this).parent();
     nextPage = $("#reported");
-    currentPage.fadeOut(1500);
-    nextPage.fadeIn(1500);
+    currentPage.fadeOut(600);
+    nextPage.fadeIn(600);
     userKey = $(this).parent().data("value");
     userObject[userKey] = $(this).val();
   });
@@ -191,8 +191,8 @@ $("#date2-backBtn").click(function(){
   $("#saveCampusBtn").click(function(){
    currentPage = $(this).parent();
    nextPage = $(this).parent().next();
-   currentPage.fadeOut(1500);
-   nextPage.fadeIn(1500);
+   currentPage.fadeOut(600);
+   nextPage.fadeIn(600);
    userKey = $(this).parent().data("value");
    userObject[userKey] = $("#campusC-box").val();
   });
@@ -200,37 +200,37 @@ $("#date2-backBtn").click(function(){
   $("#campus-skipBtn").click(function(){
     currentPage = $(this).parent().parent();
     nextPage = $("#reported");
-    currentPage.fadeOut(1500);
-    nextPage.fadeIn(1500);
+    currentPage.fadeOut(600);
+    nextPage.fadeIn(600);
   });
 
 /* REPORTED CONTROL BUTTONS ******* */
   $("#notReportedBtn").click(function(){
    currentPage = $(this).parent();
    nextPage = $("#confirmSubmit");
-   currentPage.fadeOut(1500);
-   nextPage.fadeIn(1500);
+   currentPage.fadeOut(600);
+   nextPage.fadeIn(600);
   }); 
 
   $("#reportedBackBtn").click(function(){
    currentPage = $(this).parent().parent();
    previousPage = $("#schoolCampus");
-   currentPage.fadeOut(1500);
-   previousPage.fadeIn(1500);
+   currentPage.fadeOut(600);
+   previousPage.fadeIn(600);
   });
 
   $("#reportedSkipBtn").click(function(){
     currentPage = $(this).parent().parent();
     nextPage = $("#confirmSubmit");
-    currentPage.fadeOut(1500);
-    nextPage.fadeIn(1500);
+    currentPage.fadeOut(600);
+    nextPage.fadeIn(600);
   });
 
   $(".prosecutedBtn").click(function(){
   //  currentPage = $(this).parent();
    nextPage = $(this).parent().next();
-  //  currentPage.fadeOut(1500);
-   nextPage.fadeIn(1500);
+  //  currentPage.fadeOut(600);
+   nextPage.fadeIn(600);
    userKey = $(this).parent().data("value");
    userObject[userKey] = $(this).val();
  });
@@ -270,7 +270,7 @@ $("#date2-backBtn").click(function(){
       
   $("#submitBackBtn").click(function(){
    currentPage = $(this).parent().parent();
-   currentPage.fadeOut(1500);
+   currentPage.fadeOut(600);
    fadeThisIn($("#reported"));
   });
 
@@ -285,6 +285,15 @@ $("#date2-backBtn").click(function(){
     fadeThisIn($(".home-elements"));
     fadeThisIn($("#seePrompt"));
     mapObject.seeMap = true;
+  });
+
+  // Privacy
+  $(".privacy-policy").on("click", function() {
+    $("#ppolicy").show();
+  });
+
+  $(".exitPrivacy").on("click", function(){
+    $("#ppolicy").hide();
   });
 
 }); //document.ready
