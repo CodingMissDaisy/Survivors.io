@@ -35,12 +35,12 @@ function geocodeThis(){
 
 //Function to fade in elements
 function fadeThisIn(element){
-    element.fadeIn(1500);
+    element.fadeIn(600);
 };
 
 //Function to fade out elements
 function fadeThisOut(element){
-    element.fadeOut(1500);
+    element.fadeOut(600);
 };
 
 
