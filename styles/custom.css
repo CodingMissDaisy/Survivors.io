@@ -503,6 +503,10 @@ body{
 		top: 8%;
 	}
 
+	#googleMap {
+		height: 100vh;
+	}
+
 	#feedBack {
 		display: block;
 	}
