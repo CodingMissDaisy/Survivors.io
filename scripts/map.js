@@ -165,7 +165,7 @@ var current_fs, next_fs, previous_fs, userKey;
         $(".mapPrompts").hide();
         $(".home-elements").hide();
         $("#exitMap").hide();
-        mapObject.seeMap = false;  
+        mapObject.seeMap = true;  
       });
 
       $("#pinDrop-window > #fireBase-no").on("click", function(){
@@ -217,7 +217,7 @@ var current_fs, next_fs, previous_fs, userKey;
         $(".mapPrompts").hide(); 
         $(".home-elements").hide();
         $("#exitMap").hide();
-        mapObject.seeMap = false; 
+        mapObject.seeMap = true; 
       });
       $("#pinDrop-window > #fireBase-no").on("click", function(){
         questionWindow.close();
