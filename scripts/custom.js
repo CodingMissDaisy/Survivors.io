@@ -288,7 +288,7 @@ $("#date2-backBtn").click(function(){
   });
 
   // Privacy
-  $(".privacy-policy").on("click", function() {
+  $(".privacy-policy, #privacyLink").on("click", function() {
     $("#ppolicy").show();
   });
 

@@ -90,11 +90,7 @@ var current_fs, next_fs, previous_fs, userKey;
         "stylers": [{"color": "#ffffff"}]},{ "featureType": "water",
         "elementType": "labels.text.stroke",
         "stylers": [{"visibility": "off"}]}],
-          mapTypeControl: true,
-          mapTypeControlOptions: {
-            style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-            position: google.maps.ControlPosition.RIGHT_BOTTOM
-           },
+        disableDefaultUI: true,
           zoomControl: true,
           zoomControlOptions: {
             position: google.maps.ControlPosition.RIGHT_CENTER
@@ -169,7 +165,7 @@ var current_fs, next_fs, previous_fs, userKey;
         $(".mapPrompts").hide();
         $(".home-elements").hide();
         $("#exitMap").hide();
-        mapObject.seeMap = true;  
+        mapObject.seeMap = false;  
       });
 
       $("#pinDrop-window > #fireBase-no").on("click", function(){
@@ -221,7 +217,7 @@ var current_fs, next_fs, previous_fs, userKey;
         $(".mapPrompts").hide(); 
         $(".home-elements").hide();
         $("#exitMap").hide();
-        mapObject.seeMap = true; 
+        mapObject.seeMap = false; 
       });
       $("#pinDrop-window > #fireBase-no").on("click", function(){
         questionWindow.close();

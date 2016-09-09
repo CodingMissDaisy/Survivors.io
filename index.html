@@ -47,7 +47,6 @@
 
     <!--Navbar-->
     <div class="home-elements" id="navbar">
-      	<!--<img id="logo" src="">-->
         <img class="logo" src="styles/images/Butterfly.png">  
         <h2 class="logoText">Surviv<span style="color: #f25f5c;">o</span>rs.io</h2>
 		<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
@@ -67,12 +66,20 @@
         <button type="button" class="btn buttons grayBtn" id="addEvent">Add Your Assault</button>
     </div> <!-- #homepage-overlay -->
 
+    <!--desktopFooter-->
+    <footer id="desktopFooter">
+        <p class="d-footerLinks" id="privacyLink" style="left: 4%;">Privacy Policy</p>
+        <p class="d-footerLinks" onclick="window.location='http://www.anniecannons.com'" style="position: relative; text-align: center;">Built by AnnieCannons</p>
+        <p class="d-footerLinks" style="right: 4%;">Feedback? Send it to info@anniecannons.com"</p>
+    </footer>
+
     <!--Hamburger Overlay-->
     <div class="form-overlay" id="hamburger-overlay">
         <h2 id="hamburgerAddEvent"> + Add an Assault Report</h2>
         <a href="http://www.anniecannons.com" style="color: #67ccde"><h2>Who Made This Map?</h2></a>
         <a href="http://www.nsvrc.org/" style="color: #67ccde"><h2>Survivor Resources</h2></a>
         <h2 id="hamburgerReturn">Return to Map</h2>
+        <a id="feedBack" href="mailto:info@anniecannons.com?Subject=User%20Feedback" target="_top"><h2>Feedback?</h2></a>
     </div> <!-- #hamburger-overlay -->
 
     <!--Homepage Text-->
@@ -95,10 +102,12 @@
 <!--LOCATION-->
 <div data-value="Assault Known Location Range" class="form-overlay" id="locationForm">
     <h3 style="margin-bottom: 20px">How specifically do you recall the location of the assault?</h3>
+    <input type="button" class="buttons navyBtn" value="The Country"/>
     <input type="button" class="buttons navyBtn" value="The State"/>
     <input type="button" class="buttons navyBtn" value="The City"/>
     <input type="button" class="buttons navyBtn" value="The Campus/Neighborhood"/>
     <input type="button" class="buttons navyBtn" value="The Exact Address"/>
+    <input type="button" class="buttons navyBtn" value="I Don't Know"/>
     <!--buttons-->
    <div class="flowControls">
         <button type="button" class="buttons exitLocationBtn"></button>
