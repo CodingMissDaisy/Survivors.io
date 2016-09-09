@@ -221,6 +221,7 @@ body{
 /********** BUTTONS ***********/
 
 .buttons{
+	position: relative;
 	color:#fff8e0;
 	padding: 10px;
 	border: none;
@@ -606,7 +607,7 @@ body{
 	
 	.form-overlay {
 		width: 100vw;
-		height: 100vh;
+		height: 107vh;
 		top:0;
 		padding: 5px 15px;
 	}
