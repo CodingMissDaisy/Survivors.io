@@ -92,6 +92,11 @@ body{
 	position: absolute;
 }
 
+.d-footerLinks:hover {
+	color: #67ccde;
+	cursor: pointer;
+}
+
 /**********HAMBURGER OVERLAY***********/
 #hamburger-overlay {
    	align-content: center;
