@@ -291,10 +291,6 @@ body{
 	color: #264653;
 }
 
-.multiBtn {
-	display: inline-block;
-}
-
 .answerBtn, .dateBtn1, .dateBtn2, .noDateBtn, .notCampusBtn, #notReportedBtn{
 	background-color: rgba(255, 248, 224, 0.65);
 	color: #264653;
@@ -490,6 +486,10 @@ body{
 	padding: 0;
 }
 
+.multiBtn {
+	display: inline-block;
+}
+
 /********** MEDIA QUERIES ***********/
 @media screen and (max-width: 1024px) {
 	#homepage-overlay {
@@ -560,6 +560,10 @@ body{
 		padding: 5px 15px;
 	}
 
+	#locationForm {
+		height: 110vh
+	}
+
 	#userAge {
 		height: 105vh;
 	}
@@ -596,7 +600,7 @@ body{
 @media screen and (max-height: 415px) {
 	#homepage-overlay {
 		width:100vw;
-		height:110vh;
+		height:130vh;
 		top:0;
 		background-color: rgba(38, 70, 83, 0.98);
 		padding: 5px 15px;
@@ -604,17 +608,17 @@ body{
 	
 	.form-overlay {
 		width: 100vw;
-		height: 107vh;
+		height: 130vh;
 		top:0;
 		padding: 5px 15px;
 	}
 
 	#locationForm {
-		height: 140vh;
+		height: 150vh;
 	}
 
 	#userAge {
-		height: 125vh;
+		height: 115vh;
 	}
 
 	.grayBtn {
