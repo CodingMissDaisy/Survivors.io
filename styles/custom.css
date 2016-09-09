@@ -14,7 +14,7 @@ body{
 	position: absolute;
 	z-index: 0;
 	width: 100vw;
-	height: 100vh;
+	height: 92vh;
 	left: 0;
     top:0;
 }
@@ -83,7 +83,7 @@ body{
 	background-color: #264653;
 	color: #fff8e0;
 	position: absolute;
-	bottom: -3%;
+	bottom: 0;
 	padding: 14px 0px;
 }
 
