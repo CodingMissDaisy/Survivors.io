@@ -340,7 +340,7 @@ body{
 }
 
 .exitBtn, .exitLocationBtn, #exitMapBtn, .exitPrivacy{
-	/*position: absolute;*/
+	position: relative;
 	width: 40px;
 	height: 40px;
 	background: url("images/Close-1.png");
@@ -560,14 +560,6 @@ body{
 		padding: 5px 15px;
 	}
 
-	#locationForm {
-		height: 110vh
-	}
-
-	#userAge {
-		height: 105vh;
-	}
-
 	.logoText {
 		position:absolute;
 		margin: 0;
@@ -596,11 +588,17 @@ body{
 		width:80%;   
  	}
 }
-/********** MEDIA QUERIES LANDSCAPE VIEW***********/
+/****** MEDIA QUERIES - ANDRIOD LAYOUT ***/
+@media screen and (max-width: 320px) {
+	#locationForm, #userAge {
+		height: 110vh;
+	}
+}
+/****** MEDIA QUERIES - LANDSCAPE VIEW *****/
 @media screen and (max-height: 415px) {
 	#homepage-overlay {
 		width:100vw;
-		height:200vh;
+		height:150vh;
 		top:0;
 		background-color: rgba(38, 70, 83, 0.98);
 		padding: 5px 15px;
@@ -608,18 +606,18 @@ body{
 	
 	.form-overlay {
 		width: 100vw;
-		height: 200vh;
+		height: 100vh;
 		top:0;
 		padding: 5px 15px;
 	}
 
-	/*#locationForm {
-		height: 200vh;
+	.tall-landscape {
+		height: 150vh;
 	}
 
-	#userAge {
-		height: 115vh;
-	}*/
+	.short-landscape {
+		height: 120vh;
+	}
 
 	.grayBtn {
 		height: 50px;
