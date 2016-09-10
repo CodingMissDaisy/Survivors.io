@@ -635,7 +635,15 @@ body{
 /****** MEDIA QUERIES - ***/
 	/* special Android landscape*/
 @media screen and (max-height: 384px) {
+	#locationform {
+		height: 175vh;
+	}
+
+	#userAge {
+		height: 160vh;
+	}
+
 	#relationship {
-		height: 127vh;
+		height: 135vh;
 	}
 }
