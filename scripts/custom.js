@@ -66,15 +66,23 @@ $(document).ready(function(){
    fadeThisIn($("#userGender"));
    $("#pac-input").hide();
   });
-
+  
+  //This is selecting type of location
+  //locationRangeBtn
   $(".navyBtn").on("click", function(){
+   
       $("#locationForm").fadeOut(600);
       $(".home-elements").show();
       $("#addPrompt").show();
       $("#exitMap").show();
+      
+      //Enabling dropping of pin
       mapObject.seeMap = false;
+      console.log('this',this);
       userKey = $(this).parent().data("value");
       userObject[userKey] = $(this).val();
+
+      clearMarkers();
   })
 
 
